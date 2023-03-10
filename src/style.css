@@ -1,0 +1,119 @@
+body {
+    background: #a770ef; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #fdb99b,
+      #cf8bf3,
+      #a770ef
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #fdb99b,
+      #cf8bf3,
+      #a770ef
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .container-top {
+    background-color: #ffffffe1;
+    min-height: 750px;
+    padding: 0;
+  }
+  
+  .dropdownAbs {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    z-index: 2;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+  }
+  
+  .dropdownUl {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdownLi {
+    padding: 8px 12px;
+  }
+  
+  .dropdownLi:hover {
+    background-color: rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+  }
+  
+  .btn-timer-ctrl {
+    padding: 2px;
+    opacity: 0.8;
+    margin: 2px;
+    cursor: pointer;
+    color: #a770ef;
+    color: -webkit-linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+    color: linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+  }
+  
+  .btn-timer-ctrl:hover {
+    opacity: 1;
+  }
+  
+  .checkButton {
+    opacity: 0.8;
+    cursor: pointer;
+    color: #a770ef;
+    color: -webkit-linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+    color: linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+  }
+  
+  .checkButton:hover {
+    opacity: 1;
+  }
+  
+  .navbar {
+    background: #754ea7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #a17663,
+      #7b5291,
+      #6f4aa0
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a17663, #7b5291, #6f4aa0);
+    -webkit-box-shadow: 0px 1px 2px -1px rgba(51, 51, 51, 1);
+    -moz-box-shadow: 0px 1px 2px -1px rgba(51, 51, 51, 1);
+    box-shadow: 0px 1px 2px -1px rgba(51, 51, 51, 1);
+  }
+  
+  .nav-link {
+    color: white !important;
+    opacity: 0.9;
+    transition: color 0.5s;
+    font-size: 1.2rem;
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+    color: #fdb99b !important;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    opacity: 0.75;
+    margin-bottom: 1.2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .container-ot {
+    margin-top: 10px;
+  }
+  
+  .container-sc {
+    max-width: 650px;
+    margin: auto;
+  }
+  
